@@ -4,21 +4,22 @@ import streamlit as st
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from PIL import Image
+#from PIL import Image
 
 
 #Título
 st.subheader("Predição de Diabetes Utilizando Machine Learning")
 
 #Imagem
-image = Image.open('C:/Users/Filipe/Desktop/ML/DiabetesApp.jpg')
-st.image(image, caption="ML", use_column_width= True)
+#image = Image.open('C:/Users/Filipe/Desktop/ML/DiabetesApp.jpg')
+#st.image(image, caption="ML", use_column_width= True)
 
 st.write("""
 \n
 Aplicativo que faz a predição de possível diabetes dos
 pacientes, através de inteligência artificial,
-utilizando exames simples.
+utilizando exames simples.  O menu na lateral servirá para 
+o usuário inserir suas informações.
 \n
 Autores: José Filipe de Andrade e Maycon Carvalho.\n
 Classificador Utilizado: Árvore de Decisão.\n
